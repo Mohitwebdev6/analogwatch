@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(6, 5, 5);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 50px black;
+    border: 10px solid goldenrod;
+}
+.niddle_container{
+    width: max-content;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+.center{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.needle{
+    position: absolute;
+    transform-origin:0 0;
+    border-radius: 6px;
+}
+.hour{
+    height: 120px;
+    width: 1vh;
+    background-color: red;
+}
+.minute{
+    width: 6px;
+    height: 140px;
+    background-color: green;
+    left: 0.1vh;
+}
+.second{
+    width: 3px;
+    height: 160px;
+    background-color: wheat;
+    left: 0.2vh;
+}
+.time-value{
+    position: absolute;
+    left: 50%;
+    height: 400px;
+}
+span{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 22px;
+}

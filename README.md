@@ -1,2 +1,3 @@
 # Analogwatch
-This is a analogwatch using html , css and Javascript
+This is a analogwatch using html , css and Javascript.
+
